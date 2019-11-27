@@ -315,7 +315,7 @@ const MockData = {
       title:
         "A game is a structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool. Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements. However, the distinction is not clear-cut, and many games are also considered to be work (such as professional players of spectator sports or games) or art (such as jigsaw puzzles or games involving an artistic layout such as Mahjong, solitaire, or some video games).",
       img: "https://webcdn.triongames.com/defiance/img/slides/D2050Slide.jpg",
-      imgTwo: "https://images.ua.prom.st/2033219735_2033219735.jpg",
+      imgTwo: "https://cdn.vox-cdn.com/thumbor/2NYiQ2nw6rwrmrs5lq20732b_eg=/0x0:1306x727/1200x800/filters:focal(549x260:757x468)/cdn.vox-cdn.com/uploads/chorus_image/image/61553831/Screen_Shot_2018_09_26_at_10.43.46_AM.0.png",
       imgThree:
         "https://cnet2.cbsistatic.com/img/kwnnj0GbJwVAwDIJCB_5MES0lOs=/1092x0/2019/03/19/ba990019-8bf2-4831-b20e-f6841dc80895/gdc-2019-google-stadia-controller-9707.jpg"
     },

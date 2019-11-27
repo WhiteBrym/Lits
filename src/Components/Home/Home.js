@@ -1,15 +1,15 @@
 import React from "react";
 import HomeContent from "./HomeContent";
-import DataBase from "../../MockData/MockData";
+import MockData from "../../MockData/MockData";
 function Home() {
   return (
     <div>
       <h1 className="titleHome">My first blog</h1>
       <ul>
         <div className="homeWrap">
-          {DataBase.HomeMock.map(item => (
-            <div className="example">
-              <li key={item.id}>
+          {MockData.HomeMock.map(item => (
+            <div className="example" key={item.id}>
+              <li >
                 <HomeContent
                   oneSlide={item.img}
                   twoSlide={item.imgTwo}

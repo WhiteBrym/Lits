@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DataBase from "../../MockData/MockData";
+import MockData from "../../MockData/MockData";
 
 function Games() {
   return (
     <div>
       <ul>
         <div className="box">
-          {DataBase.GameMock.map(item => (
-            <div className="content">
+          {MockData.GameMock.map(item => (
+            <div className="content" key={item.id}>
               <Link to={`/Games/${item.id}`}>
                 <img src={item.img} className="stylesimg" alt="#"></img>
               </Link>

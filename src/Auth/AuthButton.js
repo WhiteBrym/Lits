@@ -11,9 +11,9 @@ export default function AuthButton() {
         fakeAuth.signout(() => history.push("/"));
       }}
     >
-      Log out
+      <button>Log out</button>
     </Link>
   ) : (
-    <>Login </>
+    <button>Login </button>
   );
 }

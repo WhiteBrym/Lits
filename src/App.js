@@ -1,12 +1,11 @@
 import React from "react";
 import Home from "./Components/Home/Home";
-import Game from "./Components/Game/Game";
+import Game from "./Components/Game";
 import GameContent from "./Components/Game/GameContent";
-// import LogIn from "./Components/LogIn/LogIn";
-import Esports from "./Components/Esports/Esports";
+import Esports from "./Components/Esports";
 import EsportsContent from "./Components/Esports/EsportsContent";
 import TexhnologyContent from "./Components/Technology/TechnologyContent";
-import Technology from "./Components/Technology/Technology";
+import Technology from "./Components/Technology";
 import AuthButton from "./Auth/AuthButton";
 import PrivateRoute from "./Auth/PrivateRoute";
 import LoginPage from "./Auth/LogIn";
@@ -16,9 +15,6 @@ import {
   Switch,
   Route,
   Link,
-  Redirect,
-  useHistory,
-  useLocation
 } from "react-router-dom";
 
 class App extends React.Component {
@@ -53,9 +49,9 @@ class App extends React.Component {
               </span>
 
               <span>
-                <button>
+                <Link to="/login">
                   <AuthButton />
-                </button>
+                </Link>
               </span>
             </nav>
 

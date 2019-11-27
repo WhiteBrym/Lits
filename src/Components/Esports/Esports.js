@@ -4,27 +4,27 @@ import MockData from "../../MockData/MockData";
 
 function Esports() {
   return (
-    <div>
+    <li>
       <ul>
-        <div className="box">
+        <li className="box">
           {MockData.EsportMock.map(item => (
-            <div className="content" key={item.id}>
+            <li className="content" key={item.id}>
               <Link to={`/Esports/${item.id}`}>
                 <img src={item.img} className="stylesimg" alt="#"></img>
               </Link>
               <br />
               <p>{item.title}</p>
               <br />
-              <li >
+              <li>
                 <Link to={`/Esports/${item.id}`}>
                   <button className="btn">Gou</button>
                 </Link>
               </li>
-            </div>
+            </li>
           ))}
-        </div>
+        </li>
       </ul>
-    </div>
+    </li>
   );
 }
 export default Esports;

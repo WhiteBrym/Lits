@@ -1,14 +1,14 @@
 import React from "react";
-import Home from "./Components/Home/Home";
+import Home from "./Components/Home";
 import Game from "./Components/Game";
-import GameContent from "./Components/Game/GameContent";
+import GameContent from "./Components/GameContent";
 import Esports from "./Components/Esports";
-import EsportsContent from "./Components/Esports/EsportsContent";
-import TexhnologyContent from "./Components/Technology/TechnologyContent";
+import EsportsContent from "./Components/EsportsContent";
+import TexhnologyContent from "./Components/TechnologyContent";
 import Technology from "./Components/Technology";
-import AuthButton from "./Auth/AuthButton";
-import PrivateRoute from "./Auth/PrivateRoute";
-import LoginPage from "./Auth/LogIn";
+import AuthButton from "./Components/Hoc/AuthButton";
+import PrivateRoute from "./Components/Hoc/PrivateRoute";
+import LoginPage from "./Auth";
 
 import {
   BrowserRouter as Router,
@@ -97,8 +97,7 @@ class App extends React.Component {
             </div>
             <div className="footerIcon">
               <a href="https://www.facebook.com">
-                {" "}
-                <i className="fa fa-facebook-f"></i>{" "}
+                <i className="fa fa-facebook-f"></i>
               </a>
               <a href="https://www.instagram.com">
                 <i className="fa fa-instagram" aria-hidden="true"></i>

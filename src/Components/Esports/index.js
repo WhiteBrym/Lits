@@ -1,2 +1,2 @@
-import Esports from './Esports';
-export default Esports
+import Esports from "./Esports";
+export default Esports;

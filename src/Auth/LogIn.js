@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory, useLocation } from "react-router-dom";
-import fakeAuth from "./fakeAuth";
+import fakeAuth from "../Components/Hoc/fakeAuth";
 export default function LogIn() {
   const loginData = [
     {
